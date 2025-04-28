@@ -80,7 +80,7 @@ The goal was to preprocess real-world crime data, perform exploratory data analy
 
 | Model | Training Accuracy | Testing Accuracy | Decision |
 |:---|:---|:---|:---|
-| Random Forest (with new features) | 86.49% | **59.58%** | ✅ Final model |
+| Random Forest (with new features) | 86.49% | **59.58%** | Final model |
 | XGBoost (grouped) | 74.01% | 58.1% | Experimented |
 
 *Random Forest** was finalized for deployment because of slightly better testing performance.
@@ -115,7 +115,7 @@ Spring 2025 | Data Preparation and Analysis (CSP 571) | Illinois Institute of Te
 
 ---
 
-## 📚 References and Resources
+## References and Resources
 - [Crime Analysis Using R (ResearchGate)](https://www.researchgate.net/publication/337414019_Crime_Analysis_Using_R)
 - [Nowcasting Chicago Crime with R (Dataversity)](https://www.dataversity.net/nowcasting-chicago-crime-with-r/)
 - [rcrimeanalysis R Package Documentation (CRAN)](https://cran.r-project.org/web/packages/rcrimeanalysis/rcrimeanalysis.pdf)
