@@ -8,7 +8,22 @@ The goal was to preprocess real-world crime data, perform exploratory data analy
 
 ##️ Folder Structure
 
-/dpa-crime-analysis/ ├── data/ │ ├── cleaned_crime_data.csv │ ├── cleaned_crime_data_grouped.csv │ ├── cleaned_crime_data_grouped_with_features.csv ├── code/ │ ├── 1_data_preprocessing.R │ ├── 2_exploratory_data_analysis.R │ ├── 3_random_forest_grouped_with_features.R │ ├── 4_xgboost_grouped.R ├── output/ │ ├── EDA plots (.png files) │ ├── random_forest_grouped_with_features_model.rds │ ├── xgboost_crime_model.model ├── README.md
+/dpa-crime-analysis/
+├── data/
+│   ├── cleaned_crime_data.csv
+│   ├── cleaned_crime_data_grouped.csv
+│   ├── cleaned_crime_data_grouped_with_features.csv
+├── code/
+│   ├── 1_data_preprocessing.R
+│   ├── 2_exploratory_data_analysis.R
+│   ├── 3_random_forest_grouped_with_features.R
+│   ├── 4_xgboost_grouped.R
+├── output/
+│   ├── EDA plots (.png files)
+│   ├── random_forest_grouped_with_features_model.rds
+│   ├── xgboost_crime_model.model
+├── README.md
+
 
 ---
 
