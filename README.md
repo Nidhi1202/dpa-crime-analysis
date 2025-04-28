@@ -8,6 +8,7 @@ The goal was to preprocess real-world crime data, perform exploratory data analy
 
 ##️ Folder Structure
 
+```text
 /dpa-crime-analysis/
 ├── data/
 │   ├── cleaned_crime_data.csv
@@ -24,7 +25,7 @@ The goal was to preprocess real-world crime data, perform exploratory data analy
 │   ├── xgboost_crime_model.model
 ├── README.md
 
-
+```
 ---
 
 ## Project Workflow
