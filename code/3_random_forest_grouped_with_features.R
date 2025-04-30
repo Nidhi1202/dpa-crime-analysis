@@ -6,6 +6,7 @@
 # Date: Spring 2025
  
 library(tidyverse)
+library(caret)
 
 final <- read_csv("data/cleaned_crime_data_grouped.csv", col_types = cols())
 
@@ -88,3 +89,11 @@ print(conf_matrix)
 
 saveRDS(rf_model_features, "output/random_forest_grouped_with_features_model.rds")
 cat("\n Random Forest Model (with new features) saved.\n")
+
+rf_loaded <- readRDS("output/random_forest_grouped_with_features_model.rds")
+
+print(rf_loaded)
+
+importance(rf_loaded)
+varImpPlot(rf_loaded)
+
