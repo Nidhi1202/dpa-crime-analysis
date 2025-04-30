@@ -90,7 +90,7 @@ The goal was to preprocess real-world crime data, perform exploratory data analy
 
 ## How to Run
 
-1. Set your working directory to the project folder. (It is necessary to set the main folder(dpa-crime-analysis) as the working directory via session tab in R.)
+1. Set your working directory to the project folder. (It is necessary to set the main folder(dpa-crime-analysis) as the working directory via session tab in R) or use command setwd("your-file-path/dpa-crime-analysis-main"). 
 2. Run `1_data_preprocessing.R` to generate cleaned data.
 3. Run `2_exploratory_data_analysis.R` to generate plots.
 4. Run `3_random_forest_grouped_with_features.R` to train and evaluate the final Random Forest model.
